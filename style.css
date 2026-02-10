@@ -82,7 +82,7 @@ button:active {
 
 @keyframes winAnim {
   0% {
-    background-color: green;
+    background-color: red;
   }
   100% {
     background-color: lightgreen;
