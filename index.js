@@ -69,7 +69,7 @@ function restartGame(){
     running=true;
     statusEl.textContent=`Now "${player}" Turn`;
     statusEl.style.color = "black"
-    restartBtnEl.textContent = "Restart 🔁"
+    restartBtnEl.textContent = "REDO klnbkghyktjhdrtseyrtj6u787iyohkgjvyhctrdsijekrymhnthdrsdgxfdbhnfty htgkvjhgzsdfgjgcnvbgnvhkmn"
   
     boxEls.forEach(box=>{
         box.innerHTML="";
@@ -100,15 +100,15 @@ function checkWinner(){
 
     // if win then this will execute. 
   if(isWon){
-    statusEl.textContent=`Hurrah...! "${player}" Won the game🕺`;
+    statusEl.textContent=`Hurrah...! "${player}" Yo`;
     statusEl.style.color = "green"
-    restartBtnEl.textContent = "Play Again 😉"
+    restartBtnEl.textContent = "oogalaboogala"
     running=false;
     // if the game is draw then this executes.
   }else if(!options.includes("")){
     statusEl.textContent=`Oops..! Game Draw..!`;
     statusEl.style.color = "red"
-    restartBtnEl.textContent = "Play Again 😉"
+    restartBtnEl.textContent = "oogalaboogala"
     running=false;
     // else the player will change to continue the game.
   }else{
